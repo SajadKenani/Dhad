@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <link href="./Site/HomePage.css" rel="stylesheet">
+    <link href="./Site/AccountPage.css" rel="stylesheet">
+    <link href="./Site/mySideDiv.css" rel="stylesheet">
+    <link href="./Site/PaymentPage.css" rel="stylesheet">
+    <link href="./Site/RateAndReviews.css" rel="stylesheet">
+    <link href="./Site/SearchPage.css" rel="stylesheet">
+    <link href="./Site/upperSection.css" rel="stylesheet">
+    <link href="./Site/ServicesPage.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+
+    <title>Account</title>
+</head>
+<body>
+    <div class="AccountContainder ">
+        <div class="myMainAccountContainer"> 
+            <img class="myAccount-img "> 
+                <img class="miniImage " src="./Site/myImages/AccountImages/Frame 25.png" />
+            </img>
+    
+            <p class="myAccountPara "> </p>
+    
+            <p class="myUserName-para"> اسم المستخدم </p>
+    
+            <input class="myUserName-input" id="userNameInput1" placeholder="اسم المستخدم" />
+    
+            <div class="emptyInputWarning5 hidden"> 
+                <p class="myPasswordWarning-para" > لا يمكن ترك الحقل فارغ </p>
+            </div>
+    
+            <div class="emptyInputError5 hidden"> 
+                <p class="myPasswordError-para" > يجب ان لا يحتوي الاسم على رموز او ارقام </p>
+            </div>
+    
+            <p class="myUserName-para" style="margin-top: 20px;"> البريد الالكتروني </p>
+    
+            <input class="myUserName-input" id="userEmailInput1" type="email" placeholder="البريد الالكتروني" />
+    
+            <div class="emptyInputWarning6 hidden"> 
+                <p class="myPasswordWarning-para" > لا يمكن ترك الحقل فارغ </p>
+            </div>
+    
+            <p class="myUserName-para" style="margin-top: 20px;"> كلمة المرور </p>
+    
+            <div style="display: flex;">
+                <button class="myShowPasswordButton-btn myShowPasswordButton-btn0"> 
+                    <img id="myPasswordImage-img0" style="width: 25px; margin-top: 7px;" src="./Site/myImages/Svg/eye-closed_svgrepo.com.png" /> 
+                </button>
+                <input class="myPasswordInput-input" id="password0" type="password" placeholder="كلمة المرور" required></input>
+            </div>
+    
+            <div class="emptyInputWarning7 hidden"> 
+                <p class="myPasswordWarning-para" > لا يمكن ترك الحقل فارغ </p>
+            </div>
+    
+            <div class="outerChangePassword-para">
+                <p class="changePassword-para"> تغيير كلمة المرور </p>
+            </div>
+    
+            <button style="margin-top: 20px;" class="myButton-btn" id="mySaveInfoButton"> حفظ المعلومات </button>
+    
+            <div class="outerChangePassword-div hidden">
+                <div class="myInnerSucsPassDiv-div hidden">
+        
+                    <div class="circleChangedPass-div">
+                        <svg class="trueSign-svg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <style>svg{fill:#ffffff; width: 25px; height: 25px;}</style>
+                            <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                        </svg>
+                    </div>
+        
+                    <div style="display: flex; justify-content: center;">
+                        <p class="passChanged-para"> تم الحفظ </p>
+                        
+                    </div>      
+        
+                    <button class="myButton-btn" style="width: 90%; display: grid; margin: 0 auto; margin-top: 10px;" > موافق </button>
+        
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+<div class="ForgetPasswordContainer hidden"> 
+    <div style="width: 328px; margin: 0 auto;">
+    <div style="margin-top: 30px;"> 
+        <p class="passwordMainPara"> تغيير كلمة المرور </p>
+    <div> 
+        
+    <div style="margin-top: 50px;"> 
+        <p class="passwordMiniPara"> كلمة المرور القديمة </p>
+    <div>
+
+    <div style="display: flex;">
+        <button class="myShowPasswordButton-btn myShowPasswordButton-btn1"> 
+            <img id="myPasswordImage-img1" style="width: 25px; margin-top: 7px;" src="./Site/myImages/Svg/eye-closed_svgrepo.com.png" /> 
+        </button>
+        <input class="myPasswordInput-input" id="password1" type="password" placeholder="كلمة المرور" required></input>
+    </div>
+    <div id="warning1" class="hidden"> 
+        <p class="myPasswordWarning-para"> يرجى ادخال كلمة المرور </p>
+    </div>
+
+    <div > 
+        <p class="passwordMiniPara" style="margin-top: 20px;"> كلمة المرور الجديدة </p>
+    <div> 
+
+    <div style="display: flex;">
+        <button class="myShowPasswordButton-btn myShowPasswordButton-btn2"> 
+            <img id="myPasswordImage-img2" style="width: 25px; margin-top: 7px;" src="./Site/myImages/Svg/eye-closed_svgrepo.com.png" /> 
+        </button>
+        <input class="myPasswordInput-input" id="password2" type="password" placeholder="كلمة المرور" required></input>
+    </div>
+    <div id="warning2" class="hidden"> 
+        <p class="myPasswordWarning-para myPasswordWarning-para1"> يرجى ادخال كلمة المرور </p>
+    </div>
+
+    <div > 
+        <p class="passwordMiniPara" style="margin-top: 20px;"> تأكيد كلمة المرور الجديدة </p>
+    <div> 
+
+    <div style="display: flex;">
+        <button class="myShowPasswordButton-btn myShowPasswordButton-btn3"> 
+            <img id="myPasswordImage-img3" style="width: 25px; margin-top: 7px;" src="./Site/myImages/Svg/eye-closed_svgrepo.com.png" /> 
+        </button>
+        <input class="myPasswordInput-input" id="password3" type="password" placeholder="كلمة المرور" required></input>
+    </div>
+    <div id="warning3" class="hidden"> 
+        <p class="myPasswordWarning-para"> يرجى ادخال كلمة المرور </p>
+       
+    </div>
+
+    <div id="error1" class="hidden"> 
+        <p class="myPasswordError-para"> كلمة المرور غير مطابقة </p>
+       
+    </div>
+    <div style="display: grid;">
+    <button class="mySaveInfoButton"> حفظ المعلومات </button>
+    <button class="myCancelButton"> الغاء </button>
+    </div>
+    <div>
+    </div>
+
+
+<script src="./Site/HomePage.js " type="module"> </script>  
+<script src="./Site/MyForm.js" type="module"> </script>
+<script src="./Site/Navigations.js" type="module"> </script>
+    
+</body>
+</html>

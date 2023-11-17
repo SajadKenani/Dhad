@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <link href="./Site/HomePage.css" rel="stylesheet">
+    <link href="./Site/AccountPage.css" rel="stylesheet">
+    <link href="./Site/mySideDiv.css" rel="stylesheet">
+    <link href="./Site/PaymentPage.css" rel="stylesheet">
+    <link href="./Site/RateAndReviews.css" rel="stylesheet">
+    <link href="./Site/SearchPage.css" rel="stylesheet">
+    <link href="./Site/upperSection.css" rel="stylesheet">
+    <link href="./Site/ServicesPage.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Tajawal' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+
+    <title>Payment</title>
+</head>
+<body>
+
+    <div class="myPaymentContainer" >
+        <div class="upperCirclesMainDiv" >
+    
+            <div class="circleDiv"> 
+                <div class="unselectedCircle" id="circle1"> <p style="margin-top: 3px;"> 3 </p> </div>
+                <p class="unselectedCirclePara" id="circlePara1"> وسيلة الدفع</p>
+            </div>
+                <div class="myUnselectedLine1" id="myLine2"></div>
+    
+            <div class="circleDiv"> 
+                <div class="unselectedCircle" id="circle2"> <p style="margin-top: 3px;"> 2 </p> </div>
+                <p class="unselectedCirclePara" id="circlePara2"> معلومات البطاقة</p>
+            </div>
+                <div class="myUnselectedLine" id="myLine1"></div>
+    
+            <div class="circleDiv">
+                <div class="circle" id="circle3"> <p style="margin-top: 3px;"> 1 </p> </div>
+                <p class="circlePara" id="circlePara3"> تأكيد الشراء </p>
+             </div>
+        </div>
+    
+        <div style="width: 100%; display: flex; justify-content: center;">
+            <img class="myMainPurchasedImage" src="./Site/myImages/PurchaseImages/Frame 1405.png" />
+        </div>
+    
+        
+        <div class="myPurchasedContentDiv" > 
+            <div class="myInnerPurchasedContentDiv"  style="display: grid; margin-top: 25px;">
+                <p class="mainPurchasedPara">  </p>
+                <p class="myPurchasedPara"> </p>
+                <div class="myInnerContent">
+    
+                    <div class="choice-1" id="visa-card" style="width: 100%; margin-bottom: 10px; margin-top: 10px;">
+    
+                        <div class="myOuterCircle"> 
+                            <div class="myInnerCircle chosenCircle" id="chosenCircle1" data-target="myVeryInnerCircle1"> 
+                                <div class="myVeryInnerCircle myVeryInnerCircle1 " >  </div>
+                            </div>
+                        </div>
+    
+                        <div class="sectionDiv">
+                        <p class="myWayOfPayment-para"> فيزا كارد </p> 
+                        <img class="myMiniImage" src="./Site/myImages/PurchaseImages/Frame 1413.png" />    
+                        </div>
+                        
+                       
+                    </div>
+    
+                    <div class="choice-2" id="master-card" style="width: 100%; margin-bottom: 10px; margin-top: 10px;">
+    
+                        <div class="myOuterCircle"> 
+                            <div class="myInnerCircle chosenCircle" id="chosenCircle2" data-target="myVeryInnerCircle2"> 
+                                <div class="myVeryInnerCircle myVeryInnerCircle2 hidden" > </div>
+                            </div>
+                        </div>
+    
+                        <div class="sectionDiv">
+                        <p class="myWayOfPayment-para"> ماستر كارد </p> 
+                        <img class="myMiniImage" src="./Site/myImages/PurchaseImages/Frame 1413 (1).png" />    
+                        </div>
+                        
+                       
+                    </div>
+    
+                    <div class="choice-3" id="zain-cash" style="width: 100%; margin-bottom: 10px; margin-top: 10px;">
+    
+                        <div class="myOuterCircle"> 
+                            <div class="myInnerCircle chosenCircle" id="" data-target="myVeryInnerCircle3"> 
+                                <div class="myVeryInnerCircle myVeryInnerCircle3 hidden" >  </div>
+                            </div>
+                        </div>
+    
+                        <div class="sectionDiv">
+                        <p class="myWayOfPayment-para"> زين كاش </p> 
+                        <img class="myMiniImage" src="./Site/myImages/PurchaseImages/Frame 1413 (2).png" />    
+                        </div>
+                        
+                       
+                    </div>
+    
+                    <div class="choice-4" id="asia"  style="width: 100%; margin-bottom: 10px; margin-top: 10px;">
+    
+                        <div class="myOuterCircle"> 
+                            <div class="myInnerCircle chosenCircle" id="chosenCircle4" data-target="myVeryInnerCircle4"> 
+                                <div class="myVeryInnerCircle myVeryInnerCircle4 hidden" >  </div>
+                            </div>
+                        </div>
+    
+                        <div class="sectionDiv">
+                        <p class="myWayOfPayment-para"> اسيا جوالة </p> 
+                        <img class="myMiniImage" src="./Site/myImages/PurchaseImages/Frame 1413 (3).png" />    
+                        </div>
+                        
+                       
+                    </div>
+    
+                </div> 
+                <button class="myContinueButton "> </button>
+            </div>
+        </div>
+       
+    
+    </div>
+    
+    <div class="payingContainer hidden">
+        <div class="Password_Sucsessfuly_Changed  form--hidden">
+            <div class="myInnerSucsPassDiv-div">
+    
+                <div class="circleChangedPass-div">
+                    <svg class="trueSign-svg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                        <style>svg{fill:#ffffff; width: 25px; height: 25px;}</style>
+                        <path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/>
+                    </svg>
+                </div>
+    
+                <div style="display: flex; justify-content: center;">
+                    <p class="passChanged-para"> تمت عملية الدفع بنجاح!</p>
+                    
+                </div>
+    
+                <div style="display: flex; justify-content: center;">
+                    <p class="passChangedTwo-para"> تمت عملية الدفع بنجاح. شكرًا لثقتك بنا!</p>
+                    
+                </div>
+
+                <button class="myButton-btn myBuyingButton-btn" style="width: 90%; display: grid; margin: 0 auto; margin-top: 10px;" > متابعة التصفح </button>
+    
+            </div>
+            
+        </div>
+    
+    </div>
+       
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+<script src="./Site/HomePage.js " type="module"> </script>  
+<script src="./Site/MyForm.js" type="module"> </script>
+<script src="./Site/Navigations.js" type="module"> </script>
+    
+</body>
+</html>
